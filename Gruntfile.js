@@ -45,7 +45,7 @@ module.exports = function(grunt) {
     },
     
     jshint: {
-      all: [ 'Gruntfile.js', 'app/*.js', 'app/**/*.js' ]
+      all: [ 'Gruntfile.js', 'app/*.js', 'app/**/*.js', 'tests/**/*.js' ]
     },
     
     connect: {
